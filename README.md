@@ -26,3 +26,6 @@ Given the coordinates of a bounding box, this function calculates the center of 
 
 detect_and_click_search_rotation(model, teams_window, classname)
 This function captures a screenshot of the Teams window, performs object detection using YOLO, and clicks on the detected item if it matches the specified classname (e.g., "chatrotation", "searchrotation"). It loops until the item is clicked, ensuring that it only clicks once.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
